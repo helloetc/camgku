@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+    /* background-color: black; */
+}
+
+.left{
+    /* border: solid; */
+    height: 80px;
+    line-height: 80px;
+    width: 46%;
+    font-size: 25px;
+    font-style: italic;
+    float: left;
+    background-color: #fff;
+
+}
+.menu_span{
+    display: inline-block;
+    margin-left:10%;
+}
+.rigth{
+    /* border: solid; */
+    height: 80px;
+    line-height: 80px;
+    width: 54%;
+    float: left;
+    background-color: #fff;
+
+}
+.menu_row{margin-right:5%}
+
+#imgs::after{
+    content: "";
+    display: inline-block;
+    clear:both;
+}
+.imgs1{
+    width: 20%;
+    /* border: solid 1px; */
+    float: left;
+    overflow: hidden;
+    margin: 20px 0;
+}
+#main{
+    margin:0 0 ;
+    border: solid RED;
+    background-color:#f9f9f9 ;
+}
+#main_left{
+    width: 67%;
+    float: left;
+    border: solid;
+
+}
+.imgAndWorld{
+    background-color:#fff ;
+    /* border: solid; */
+    padding: 0 20px;
+
+    padding-top: 15px;
+}
+.imgAndWorld::after{
+    content: "";
+    display: inline-block;
+    clear:both;
+}
+.tu{
+       width: 30%;
+       border-radius: 5px;
+       overflow: hidden;
+       float: left;
+       border: solid;
+       margin: 0 20px 20px 0;
+}
+.tu img{
+    width: 100%;
+}
+.foot{
+    width: 100%; 
+    border: solid;
+    clear: both;
+}
+.foot::after{
+    border: solid 10px red;
+}
+.foot a{
+   float: right;
+   margin-right: 20px;
+}
+.foot span{
+    display: inline-block;
+    margin: 0 10px;
+}
+.thr{
+    height: 15px;
+    /* margin-top: -15px; */
+}
+#main_rigth{
+    width: 32%;
+    border: solid 5px blue;
+
+}
+.aboutMe{
+    width: 100%;
+    height: 392px;
+    background-image: url(../images/banner.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.avatar {
+    width: 100%;
+}
+.avatar img{
+    border-radius: 50%;
+   margin-top: 90px;
+   margin-left: auto;
+}
+.abname{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+}
+.abwork{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #3f3f3f;
+}
+.abworld{
+   padding: 5px 30px;
+}
+.resever{
+    margin: 20px 30px;
+    height: 50px;
+    background-color: #fff;
+}
+.resever form{
+    display: block;
+    text-align: center;
+   padding-top: 15px;
+}
+.resever form button{
+    width:50px ;
+    margin-left: -5px;
+}
+.cloud{
+    border: solid red;
+    margin: 5px 30px;
+    background-color: #fff;
+}
+.clounda a{
+    display: inline-block;
+    border-radius: 8px;
+    border: solid 1px;
+    padding: 8px;
+    margin-top: 5px ;
+    margin-left: 10px;
+    color: #fff;
+    /* font-size: 2em; */
+}
+.neiRong{
+    margin: 10px ;
+}
+
+li{
+    background-color: #fff;
+}
+
+li i{
+    display:block;
+    border: solid red;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    float: left;
+}
+li p{
+    margin-top: 10px;
+}
+li i img{
+    display: block;
+    height: 100%;
+
+    margin: 0 auto;
+}
+li::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.paihang{
+    background-color: #fff;
+    margin-top: 50px;
+}
