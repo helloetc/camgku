@@ -4,9 +4,22 @@
 }
 
 body{
-    background-color: #ccc;
+    background-color: rgb(209, 204, 204,0.5);
     /* background-color: black; */
 }
+.menu_row a{
+    text-decoration: none;
+    color: #000;
+}
+.col2{
+    float: left;
+    width: 20%;
+    padding: auto auto;
+}
+.col2 a{
+    display: inline-block
+}
+
 
 .left{
     /* border: solid; */
@@ -18,6 +31,21 @@ body{
     float: left;
     background-color: #fff;
 
+}
+.imgs1 img{
+    transition: all 0.5s;
+}
+
+.imgs1:hover img{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.imgs1{
+    width: 20%;
+    float: left;
+    margin: 20px 0;
+    overflow: hidden;
 }
 .menu_span{
     display: inline-block;
@@ -39,22 +67,14 @@ body{
     display: inline-block;
     clear:both;
 }
-.imgs1{
-    width: 20%;
-    /* border: solid 1px; */
-    float: left;
-    overflow: hidden;
-    margin: 20px 0;
-}
+
 #main{
     margin:0 0 ;
-    border: solid RED;
     background-color:#f9f9f9 ;
 }
 #main_left{
     width: 67%;
     float: left;
-    border: solid;
 
 }
 .imgAndWorld{
@@ -74,15 +94,18 @@ body{
        border-radius: 5px;
        overflow: hidden;
        float: left;
-       border: solid;
        margin: 0 20px 20px 0;
 }
 .tu img{
     width: 100%;
+    transition: all 0.8s;
+}
+.tu:hover img{
+    transform: scale(1.1);
+    transition: all 0.8s;
 }
 .foot{
     width: 100%; 
-    border: solid;
     clear: both;
 }
 .foot::after{
@@ -102,7 +125,6 @@ body{
 }
 #main_rigth{
     width: 32%;
-    border: solid 5px blue;
 
 }
 .aboutMe{
@@ -137,10 +159,13 @@ body{
    padding: 5px 30px;
 }
 .resever{
-    margin: 20px 30px;
+    margin-top: 20px ;
+    float: right;
     height: 50px;
+    width: 100%;
     background-color: #fff;
 }
+
 .resever form{
     display: block;
     text-align: center;
@@ -151,8 +176,9 @@ body{
     margin-left: -5px;
 }
 .cloud{
-    border: solid red;
-    margin: 5px 30px;
+   
+    margin-top:90px ;
+    padding-bottom: 10px;
     background-color: #fff;
 }
 .clounda a{
@@ -170,12 +196,12 @@ body{
 }
 
 li{
+    list-style: none;
     background-color: #fff;
 }
 
 li i{
     display:block;
-    border: solid red;
     width: 90px;
     height: 90px;
     overflow: hidden;
@@ -187,7 +213,6 @@ li p{
 li i img{
     display: block;
     height: 100%;
-
     margin: 0 auto;
 }
 li::after{
@@ -197,5 +222,56 @@ li::after{
 }
 .paihang{
     background-color: #fff;
-    margin-top: 50px;
+    margin-top: 20px;
+}
+.tuijian{
+    margin-top: 20px;
+    background-color: #fff;
+}
+.lianjie{
+    margin-top: 10px;
+    background-color: #fff;
+   
+}
+.lianjie h3{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.lianjie a{
+    display: inline-block;
+    color: black;
+    margin: 5px 15px;
+}
+.weizin{
+    margin-top: 10px;
+    background-color: #fff;
+}
+.weizin h3{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.line1{
+    border: solid rgb(235, 206, 206);
+    width: 0%;
+    transition: all 1s;
+
+}
+ h3:hover + .line1{
+        width: 100%;
+        border: solid red;
+        transition: all 1s;
+       
+}
+footer {
+    width: 100%;
+    background: #333;
+    color: #a5a4a4;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+    font-size: 14;
+    border-bottom:so ;
+}
+footer a{
+    color: #a5a4a4;
 }
